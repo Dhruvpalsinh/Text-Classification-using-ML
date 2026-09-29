@@ -1,6 +1,6 @@
 # Text Classification using ML
 
-This project demonstrates a simple machine learning pipeline for sentiment analysis using the IMDB movie reviews dataset. The notebook loads review text, cleans it, converts it into numerical features, and trains a model to classify each review as either positive or negative.
+This project demonstrates a simple machine learning pipeline for sentiment analysis using the IMDB movie reviews dataset. The notebook loads review text, cleans it, converts it into numerical features, and trains a classifier to predict sentiment.
 
 ## Project Goal
 
@@ -12,6 +12,8 @@ This project uses the IMDB dataset (`IMDB Dataset.csv`), which contains movie re
 
 - positive
 - negative
+
+The dataset can be downloaded from Kaggle: [IMDB Dataset of 50K Movie Reviews](https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews)
 
 The notebook samples the first 10,000 rows for faster execution and experimentation.
 
